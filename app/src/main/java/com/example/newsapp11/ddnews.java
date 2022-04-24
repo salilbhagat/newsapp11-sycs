@@ -16,7 +16,7 @@ public class ddnews extends AppCompatActivity {
         setContentView(R.layout.activity_ddnews);
         webView = (WebView) findViewById(R.id.webView);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://www.ndtv.com/video/live/channel/ndtvprofit");
+        webView.loadUrl("http://www.ndtv.com/video/live/channel");
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
     }
